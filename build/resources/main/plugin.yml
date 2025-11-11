@@ -1,0 +1,13 @@
+name: RealLifeBounty
+version: 1.0
+main: com.abrgamingzone.bounty.Main
+api-version: 1.19
+depend: [Vault]
+commands:
+  bounty:
+    description: Manage bounties
+    usage: /bounty set|info|remove
+permissions:
+  bounty.admin:
+    description: Access all bounty commands
+    default: op

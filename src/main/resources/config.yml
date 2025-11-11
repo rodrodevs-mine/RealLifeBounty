@@ -1,0 +1,18 @@
+# Bounty Config
+bounties: {}
+
+reward:
+  default: DIAMOND:1
+
+balance_penalty:
+  offline: 1200
+
+messages:
+  bounty_assigned: "&aYou have been assigned a bounty on &b{target}&a!"
+  bounty_target: "&c{player} is now hunting you!"
+  bounty_completed: "&aYou killed &b{target}&a and got your reward: {reward}!"
+  insufficient_balance: "&c{player} does not have enough balance!"
+
+worlds_allowed:
+  - world
+  - world_nether
